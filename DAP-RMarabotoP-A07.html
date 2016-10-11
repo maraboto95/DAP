@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forma de contacto</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Madurai|Istok+Web|Lato|PT+Sans+Narrow|Quicksand|Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+</head>
+<body>
+   
+       <div class="main container">
+     <div class="row">
+     </div>
+      <div class="row">
+        <div class="col l4 m3">
+ 
+        </div>
+
+        <div class="col l8 m8 s7">
+              <div class="row">
+               <div class="card-panel z-depth-2 light-blue darken-3">
+                  <div class="col l9">
+                   <h4 style="font-family:'Poppins'" class="left-align white-text">Contacto</h4>
+                  </div>
+                   <h4 class=" white-text right-align "><i class="material-icons md-36">message</i></h4>
+               </div>
+              </div>
+            <div class="row card-panel z-depth-2">
+               <form method="get" class="contact-form" action="mail.php">
+                    <div class="input-field col s12">
+                        <input id="nombre" type="text" class="validate">
+                        <label for="nombre">Nombre</label>  
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>  
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="tel" type="text" class="validate">
+                        <label for="email">Teléfono</label>  
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Mensaje</label>
+                    </div>
+                    <div class="row">
+                        <div class="col l6">
+                            <a id="send" class="waves-effect disabled waves-light btn btn-contacto"><i class="material-icons left">send</i>Enviar</a>
+                        </div>
+                        <div class="col l6">
+                            <a id="limpio" class="waves-effect disabled waves-light  btn btn-contacto"><i class="material-icons left">clear_all</i>Limpiar</a>
+                        </div>
+                    </div>
+                    
+                    
+               </form>
+            </div>  
+        </div>
+      </div>
+    </div>
+    
+    
+    <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script src="activo.js"></script>
+</body>
+</html>
